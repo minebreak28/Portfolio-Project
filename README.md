@@ -1,1 +1,1 @@
-# csc342-2023Fall-ajwu
+# Adam's Portfolio Project
