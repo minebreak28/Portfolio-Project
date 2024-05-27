@@ -2995,26 +2995,19 @@ table.alt tbody tr td {
 /* Statistics */
 
 .statistics {
-	display: -moz-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: flex;
-	width: 100%;
-	margin: 0 0 3em 0;
-	padding: 0;
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
 	list-style: none;
-	cursor: default;
+	cursor: pointer;
 }
 
 .statistics li {
-	-moz-flex: 1;
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
 	padding: 1.5em;
+	font-size: 1 !important;
 	color: #ffffff;
-	text-align: center;
 }
+
 
 .statistics li.style1 {
 	background-color: #efa8b0;
@@ -3039,7 +3032,7 @@ table.alt tbody tr td {
 .statistics li strong,
 .statistics li b {
 	display: block;
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: 1.1;
 	color: inherit !important;
 	font-weight: 300;
@@ -3048,11 +3041,17 @@ table.alt tbody tr td {
 
 .statistics li:first-child {
 	border-top-left-radius: 8px;
+}
+
+.statistics li:nth-child(3) {
+	border-top-right-radius: 8px;
+}
+
+.statistics li:nth-child(5) {
 	border-bottom-left-radius: 8px;
 }
 
 .statistics li:last-child {
-	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
 }
 
@@ -3242,24 +3241,6 @@ table.alt tbody tr td {
 	opacity: 1;
 }
 
-#header.alt .logo {
-	-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-	-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-	-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-	transition: opacity 1.25s ease, transform 0.5s ease;
-	-moz-transition-delay: 0s;
-	-webkit-transition-delay: 0s;
-	-ms-transition-delay: 0s;
-	transition-delay: 0s;
-	display: block;
-	margin: 0 0 1.5em 0;
-}
-
-#header.alt .logo img {
-	display: block;
-	margin: 0 auto;
-	max-width: 75%;
-}
 
 @media screen and (max-width: 1280px) {
 
@@ -4254,4 +4235,18 @@ body.is-preload #header.alt .logo {
 		transform: rotateX(30deg);
 		opacity: 0;
 	}
+}
+
+/* cursor */
+
+.gradient-overlay {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, #e37682, #5f4d93);
+	transition: background 10s ease;
+	z-index: -1;
 }
