@@ -106,6 +106,21 @@
 				});
 
 			});
+		var $button = $('.actions.special li a.button');
+
+		$button.on('click', function (event) {
+			event.preventDefault();
+
+			var targetId = $(this).attr('href');
+			var $targetElement = $(targetId);
+
+			if ($targetElement.length > 0) {
+				$('html, body').animate({
+					scrollTop: $targetElement.offset().top
+				}, 1000);
+			}
+		});
+
 
 	}
 
