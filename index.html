@@ -221,26 +221,26 @@
 				<header class="major">
 					<h2>Contact Me</h2>
 				</header>
-				<form class="contact-form">
-					<div class="form-row">
-						<div class="form-group">
-							<label class="form-label" for="first-name">First Name</label>
-							<input type="text" id="first-name" class="input-box" required>
-						</div>
-						<div class="form-group">
-							<label class="form-label" for="last-name">Last Name</label>
-							<input type="text" id="last-name" class="input-box" required>
-						</div>
+				<form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="form">
+					<input type="hidden" name="access_key" value="402c593d-f146-47c0-bedb-fedd0fa6fb52">
+					<input type="hidden" name="subject" value="New Submission from Web3Forms">
+					<input type="checkbox" name="botcheck" id="" style="display: none;">
+
+					<div class="form-group">
+						<label class="form-label" for="first-name">Name</label>
+						<input type="text" name="name" id="name" class="input-box" required>
 					</div>
 					<div class="form-group">
 						<label class="form-label" for="email">Email</label>
-						<input type="email" id="email" class="input-box" required>
+						<input type="email" name="email" id="email" class="input-box" required>
 					</div>
 					<div class="form-group">
 						<label class="form-label" for="message">Message</label>
-						<textarea id="message" class="input-box message-box" rows="6" required></textarea>
+						<textarea name="message" id="message" class="input-box message-box" rows="6"
+							required></textarea>
 					</div>
-					<a type="submit" class="button primary">Submit</a>
+					<button type="submit" class="button primary">Submit</button>
+					<div id="result"></div>
 				</form>
 
 			</section>
@@ -289,7 +289,7 @@
 	<script src="src/js/cursorgradient.js"></script>
 	<script src="src/js/skills.js"></script>
 	<script src="src/js/visitorcount.js"></script>
-
+	<script src="src/js/contactform.js"></script>
 </body>
 
 </html>
