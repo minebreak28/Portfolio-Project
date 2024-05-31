@@ -32,6 +32,8 @@ Simply visit this URL: [Website Link](https://portfolio.adamwu.dev/).
 
 **AWS Lambda**: runs a function that increments the visitor count whenever the API endpoint is fetched from the frontend.
 
+**Github Actions**: provides CI/CD workflows.
+
 ## Credits
 
 Ideas for the AWS services used for this website's deployment are sourced from the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/), a public project that helps cloud enthusiasts gain practical experience in cloud computing.
