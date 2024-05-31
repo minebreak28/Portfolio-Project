@@ -10,12 +10,8 @@ Simply visit this URL: [Website Link](https://portfolio.adamwu.dev/).
 
 ## Technologies and Services Used
 
-#### HTML
-: used for basic web structure
+**HTML**: used for basic web structure
+**CSS**: used to apply aesthetics to the user interface
 
-#### CSS
-: used to apply aesthetics to the user interface
-
-#### JavaScript
-: used in combination with CSS to add styling, as well as to facilitate various user interactions.
+**JavaScript**: used in combination with CSS to add styling, as well as to facilitate various user interactions.
 
