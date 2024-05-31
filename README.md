@@ -39,3 +39,5 @@ Simply visit this URL: [Website Link](https://portfolio.adamwu.dev/).
 Ideas for the AWS services used for this website's deployment are sourced from the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/), a public project that helps cloud enthusiasts gain practical experience in cloud computing.
 
 Major CSS and HTML components were sampled from [HTML5 UP](https://html5up.net/stellar), a website that offers free website templates built with HTML5, CSS3, and JavaScript.
+
+The front-end-cicd.yml file, used to sync my directory with the S3 bucket through Github Actions, was sampled [here](https://github.com/jakejarvis/s3-sync-action)
