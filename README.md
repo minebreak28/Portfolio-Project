@@ -10,8 +10,30 @@ Simply visit this URL: [Website Link](https://portfolio.adamwu.dev/).
 
 ## Technologies and Services Used
 
-**HTML**: used for basic web structure
-**CSS**: used to apply aesthetics to the user interface
+### Languages
+
+**HTML**: used for basic web structure.
+
+**CSS**: used to apply aesthetics to the user interface.
 
 **JavaScript**: used in combination with CSS to add styling, as well as to facilitate various user interactions.
 
+**Python**: used to write a Lambda function to update site visitor count.
+
+### Services
+
+**AWS S3**: provides scalable object storage in the cloud.
+
+**AWS CloudFront**: delivers content to users with low latency and provides a secure HTTPS connection
+
+**AWS Route 53**: manages my custom domain name, and directs users to the CloudFront distribution to access website.
+
+**AWS DynamoDB**: stores and manages the visitor count data for the website.
+
+**AWS Lambda**: runs a function that increments the visitor count whenever the API endpoint is fetched from the frontend.
+
+## Credits
+
+Ideas for the AWS services used for this website's deployment are sourced from the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/), a public project that helps cloud enthusiasts gain practical experience in cloud computing.
+
+Major CSS and HTML components were sampled from [HTML5 UP](https://html5up.net/stellar), a website that offers free website templates built with HTML5, CSS3, and JavaScript.
