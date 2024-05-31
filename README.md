@@ -1,7 +1,5 @@
 # Adam's Portfolio Website
-[Website Link](https://portfolio.adamwu.dev/){:target="_blank"}
-
-
+[Website Link](https://portfolio.adamwu.dev/)
 This is the code repository for my personal portfolio website.
 
 ## High-level Architecture
