@@ -6,7 +6,7 @@ This is the code repository for my personal portfolio website. This website atte
 Simply visit this URL: [Website Link](https://portfolio.adamwu.dev/).
 
 ## High-level Architecture
-![portfolio_highlevel_design](https://github.com/minebreak28/Portfolio-Website/assets/78050276/6e528210-f339-4690-8ecd-a74adb5221a0)
+![portfolio_highlevel_design drawio](https://github.com/minebreak28/Portfolio-Website/assets/78050276/6cc54455-9d29-4d5e-879c-fa7556fdd4fc)
 
 ## Technologies and Services Used
 
