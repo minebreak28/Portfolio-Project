@@ -2,8 +2,8 @@
 
 This is the code repository for my personal portfolio website. This website attempts to put my information, skills, and projects into one place, while showcasing my technical skills in JavaScript, HTML, and CSS, as well as various AWS cloud services.
 
-## How to install/run the website
-Simply visit this URL: [https://portfolio.adamwu.dev](https://portfolio.adamwu.dev).
+## How to visit the website
+Navigate to [https://portfolio.adamwu.dev](https://portfolio.adamwu.dev).
 
 ## High-level Architecture
 ![portfolio_highlevel_design drawio](https://github.com/minebreak28/Portfolio-Website/assets/78050276/6cc54455-9d29-4d5e-879c-fa7556fdd4fc)
